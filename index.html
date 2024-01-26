@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango Comission</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./images/Niquecorrendo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./images/Niquecorrendo.png" class="images" alt="Niquecorrendo">
+            <h1>Bunnewo</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-font" src="./images/nique.png" alt="Fachada da loja Games Shop"/>
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>
+                    Oi eu sou a Bunnewo e eu faço desenhos fofos
+                </p>
+                <p>
+                    Vejam um pouco sobre minhas artes
+                </p>
+                <ul class="brands-list" id="my-images">
+                    <li><img class="thumbnail" src="./images/1.jpg" alt="Nintendo"/></li>
+                    <li><img class="thumbnail" src="./images/2.jpg" alt="Xbox" /></li>
+                    <li><img class="thumbnail" src="./images/3.png" alt="Playstation" /></li>
+                </ul>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal()">&times;</span>
+                      <img id="modalImage" src="" alt="Imagem ampliada">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Venha falar comigo para eu fazer uma arte sua</h3>
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required />
+                        <input type="email" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone (Opcional)"/>
+                        <textarea placeholder="Descreva sua OC ou Fanart" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Me acompanhe nas redes sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Twitter">
+                                <img src="./images/twitter.png" alt="Logo twitter"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Bunnewo - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
